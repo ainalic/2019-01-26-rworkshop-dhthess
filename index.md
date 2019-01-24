@@ -134,7 +134,6 @@ eventbrite: 53221878070          # optional: alphanumeric key for Eventbrite reg
 
   Modify the block below if there are any barriers to accessibility or
   special instructions.
-{% endcomment %}
 <p id="accessibility">
   <strong>Accessibility:</strong> We are committed to making this workshop
   accessible to everybody.
@@ -152,6 +151,7 @@ eventbrite: 53221878070          # optional: alphanumeric key for Eventbrite reg
   get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
+{% endcomment %}
 
 {% comment %}
   CONTACT EMAIL ADDRESS
