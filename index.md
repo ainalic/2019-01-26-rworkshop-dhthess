@@ -184,7 +184,7 @@ eventbrite: 53221878070          # optional: alphanumeric key for Eventbrite reg
  SURVEYS - DO NOT EDIT SURVEY LINKS 
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
-<p>Give that this is a workshop according to data carpentry training materials. Please be sure to complete these surveys before and after the workshop.</p>
+<p>Give that this is a workshop according to data carpentry training materials, please be sure to complete these surveys before and after the workshop.</p>
 {% if site.carpentry == "swc" %} 
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
