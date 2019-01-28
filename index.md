@@ -254,8 +254,9 @@ eventbrite: 53221878070          # optional: alphanumeric key for Eventbrite reg
 <h2 id="syllabus">Syllabus</h2>
 
 {% if page.carpentry == "swc" %}
-<p><a href="https://tinyurl.com/y74d9f5c">Examples from the course Survey</a></p>
   {% include sc/syllabus.html %}
+  <p><a href="https://tinyurl.com/y74d9f5c">Examples from the course Survey</a></p>
+
 {% elsif page.carpentry == "dc" %}
   {% include dc/syllabus.html %}
 {% elsif page.carpentry == "lc" %}
